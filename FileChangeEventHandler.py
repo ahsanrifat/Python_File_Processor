@@ -2,21 +2,15 @@ import sys
 import time
 import logging
 from watchdog.observers import Observer
-
-# from watchdog.events import LoggingEventHandler
 from watchdog.events import FileSystemEventHandler
 
 
 def on_created(event):
-    print("Created")
+    print("Created", event.src_path)
 
 
 if __name__ == "__main__":
-    # logging.basicConfig(
-    #     level=logging.INFO,
-    #     format="%(asctime)s - %(message)s",
-    #     datefmt="%Y-%m-%d %H:%M:%S",
-    # )
+
     path = r"D:\Robi Work 2021"
     event_handler = FileSystemEventHandler()
     # calling functions
