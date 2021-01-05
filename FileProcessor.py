@@ -1,5 +1,13 @@
 import os
 import SFTPFileExchange as sftp
+import logging
+
+logging.basicConfig(
+    filename="file.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s - %(level)",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
 
 
 def get_file_from_server(

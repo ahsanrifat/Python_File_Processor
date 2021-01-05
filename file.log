@@ -1,0 +1,22 @@
+2021-01-05 12:20:19 - Connected (version 2.0, client JSCAPE)
+2021-01-05 12:20:19 - Authentication (password) failed.
+2021-01-05 12:20:19 - SSH Connection Error - Authentication failed.
+2021-01-05 12:20:19 - Getting the SFTP Client  - 'NoneType' object has no attribute 'open_sftp'
+2021-01-05 12:20:19 - Getting the latest file name from server - 'NoneType' object has no attribute 'chdir'
+2021-01-05 12:20:19 - Downloading the latest file from server - 'NoneType' object has no attribute 'get'
+2021-01-05 12:21:36 - Connected (version 2.0, client JSCAPE)
+2021-01-05 12:21:36 - Authentication (password) failed.
+2021-01-05 12:21:36 - SSH Connection Error - Authentication failed.
+2021-01-05 12:21:36 - Getting the SFTP Client  - 'NoneType' object has no attribute 'open_sftp'
+2021-01-05 12:21:36 - Getting the latest file name from server - 'NoneType' object has no attribute 'chdir'
+2021-01-05 12:21:36 - Downloading the latest file from server - 'NoneType' object has no attribute 'get'
+2021-01-05 12:24:13 - Connected (version 2.0, client JSCAPE)
+2021-01-05 12:24:13 - Authentication (password) successful!
+2021-01-05 12:24:13 - [chan 0] Opened sftp connection (server version 3)
+2021-01-05 12:24:13 - Downloading the latest file from server Error - [Errno 2] No such file or directory: 'D:/asdsd/Ads Interfaces (Saiful) - 1st.pdf'
+2021-01-05 12:25:54 - Connected (version 2.0, client JSCAPE)
+2021-01-05 12:25:55 - Authentication (password) successful!
+2021-01-05 12:25:55 - [chan 0] Opened sftp connection (server version 3)
+2021-01-05 12:26:28 - Connected (version 2.0, client JSCAPE)
+2021-01-05 12:26:29 - Authentication (password) successful!
+2021-01-05 12:26:29 - [chan 0] Opened sftp connection (server version 3)
