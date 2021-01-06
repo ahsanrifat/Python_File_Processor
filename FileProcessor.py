@@ -13,12 +13,15 @@ logging.basicConfig(
 def get_file_from_server(
     hostname, username, password, port, server_directory, parent_directory
 ):
-    ssh = sftp.establish_connection(hostname, username, password, port)
-    sftp_client = sftp.get_sftp_client(ssh)
-    local_file_path = sftp.download_file(
-        ssh, sftp_client, parent_directory, server_directory
-    )
-    return local_file_path
+    try:
+        ssh = sftp.establish_connection(hostname, username, password, port)
+        sftp_client = sftp.get_sftp_client(ssh)
+        local_file_path = sftp.download_file(
+            ssh, sftp_client, parent_directory, server_directory
+        )
+        return local_file_path
+    except Exception as e:
+        logging.error("Getting File From Server Error - {}".format(e))
 
 
 def process_file(parent_directory, success_directory, error_directory):
